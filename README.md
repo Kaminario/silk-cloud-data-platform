@@ -9,9 +9,10 @@ To start simply go to https://console.cloud.google.com/marketplace/details/kamin
 
 
 You can take the default settings or customize them.
+
 ![](./images/deploy-options.png)
 
-**Please notice that in order to ease initial setup the "set external ip" is turned on by default. This is mostly for ease of setup or for quickly testing out the system. Although we setup proper firewall rules and only enable HTTPS (port 443) access - this should not be used for production systems or turned off manually after initial deployment! **
+**Please notice that in order to ease initial setup the "set external ip" is turned on by default. This is mostly for ease of setup or for quickly testing out the system. Although we setup proper firewall rules and only enable HTTPS (port 443) access - this should not be used for production systems or turned off manually after initial deployment!**
 
 As part of the deployment we create a new VPC network. 
 The "Set subnet IP CIDR range" option defines which subnet address range, inside the VPC network above, Flex will create. 
@@ -52,7 +53,7 @@ After you login you can start creating your first cluster by clicking on the "Cr
 In order to obtain a cluster file - please contact us at https://support.silk.us/
 
 
-## SSH's the VM
+## SSH the VM
 
 In general - there is no need to SSH the machine unless this was requested by support or you would like to examine the open source licenses used by this solution (see next section).
 The VM instance name is the *{deployment name}-vm*. e.g, if the deployment name was *silk-cloud-data-platform-1* then the VM instance name will be *silk-cloud-data-platform-1-vm*.
